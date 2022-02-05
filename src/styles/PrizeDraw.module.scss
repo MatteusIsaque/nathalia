@@ -1,0 +1,46 @@
+.Articles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  h2 {
+    font-weight: 800;
+    font-size: 2rem;
+    letter-spacing: 0.15rem;
+
+    margin-top: 120px;
+  }
+
+  .subtitle{
+    letter-spacing: 0.15rem;
+  }
+}
+
+@media(max-width:530px){
+  .Articles {  
+    h2 {
+      font-size: 1.5rem;
+  
+      margin-top: 120px;
+      padding: 4px 10px;
+    }
+  
+    .subtitle{
+      padding: 4px 10px;
+    }
+  }
+}
+
+@media(max-width:530px){
+  .Articles {  
+    h2 {
+      font-size: 1.15rem;
+    }
+  
+    .subtitle{
+      text-align: center;
+    }
+  }
+  
+}

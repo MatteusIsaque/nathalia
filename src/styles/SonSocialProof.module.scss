@@ -1,0 +1,16 @@
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+  h2{
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: var(--black);
+    letter-spacing: 0.05rem;
+    margin: 20px 0px 10px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,99 @@
+.Main {
+  background-image: url("./../images/treino.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+
+  height: 740px;
+
+  display: flex;
+  align-items: center;
+
+  .Content {
+    margin-left: 5%;
+    max-width: 40%;
+
+    background-color: rgba(255, 255, 255, 0.871);
+
+    padding: 4% 2%;
+    border-radius: 10px;
+    h2 {
+      font-size: 2rem;
+      font-weight: 800;
+      letter-spacing: 0.05rem;
+    }
+
+    .text {
+      margin-top: 20px;
+      line-height: 2rem;
+    }
+
+    button {
+      padding: 16px;
+      width: 100%;
+      margin-top: 20px;
+
+      background-color: var(--light-blue);
+
+      font-size: 2rem;
+      font-weight: 800;
+      letter-spacing: 0.05rem;
+      color: var(--black);
+
+      border: none;
+      outline: none;
+
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.5s;
+
+      &:hover {
+        transition: 0.5s;
+        filter: brightness(0.95);
+      }
+    }
+  }
+}
+
+@media (max-width: 1326px) {
+  .Main {
+    height: 740px;
+    .Content {
+      h2 {
+        font-size: 1rem;
+      }
+
+      .text {
+        line-height: 1.5rem;
+      }
+
+      button {
+        padding: 16px;
+
+        font-size: 1.25rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .Main {
+  
+    .Content {
+      margin: 10% 5%;
+      max-width: 100%;
+  
+      padding: 12% 5%;
+      h2 {
+        font-size: 1.25rem;
+        text-align: center;
+      }
+  
+      .text {
+        line-height: 1.25rem;
+        text-align: center;
+      }
+  
+    }
+  }
+}

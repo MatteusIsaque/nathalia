@@ -1,0 +1,40 @@
+.MeetPlans {
+  background-image: url(../images/barra2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 400px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  z-index: 1000;
+
+  h2 {
+    font-weight: 800;
+    font-size: 2rem;
+    color: var(--white);
+    letter-spacing: 0.15rem;
+    margin: 20px 0px 10px;
+  }
+
+  p {
+    color: var(--white);
+    letter-spacing: 0.15rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .MeetPlans {
+    h2 {
+      font-size: 22px;
+    }
+
+    p {
+      text-align: center;
+    }
+  }
+}

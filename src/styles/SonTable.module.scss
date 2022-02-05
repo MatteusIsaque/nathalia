@@ -1,0 +1,84 @@
+.Table {
+  background-color: #4f4e50;
+
+  border-radius: 10px;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .TitleTable {
+    padding: 20px;
+
+    font-size: 1.5rem;
+    color: var(--white);
+    font-weight: 500;
+  }
+
+  .priceEmphasis {
+    color: var(--white);
+    font-weight: 500;
+    font-size: 2rem;
+
+    span {
+      font-size: 4rem;
+    }
+
+    text {
+      font-size: 1rem;
+    }
+  }
+
+  .Tr {
+    display: flex;
+    flex-direction: column;
+
+    color: var(--white);
+    padding-top: 10px;
+
+    th {
+      font-weight: 500;
+      margin: 2px 0px;
+    }
+  }
+
+  .Strong {
+    height: 4px;
+    width: 80%;
+    border-radius: 20px;
+
+    margin: 20px 0px;
+  }
+
+  .Vantagens {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px 40px 0px;
+
+    td {
+      font-weight: 500;
+      color: var(--white);
+      margin: 6px 0px;
+    }
+  }
+}
+
+@media (max-width: 1174px) {
+  .Table {
+    padding: 40px 20px;
+
+    margin: 40px 0px;
+  }
+}
+
+@media (max-width: 320px) {
+  .Table {
+    .TitleTable {
+      padding: 20px;
+
+      font-size: 1.5rem;
+    }
+  }
+}

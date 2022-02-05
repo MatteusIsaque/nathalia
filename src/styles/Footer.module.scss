@@ -1,0 +1,20 @@
+.Footer{
+  text-align: center;
+
+  padding: 10px 0px;
+
+  a{
+    color: var(--black);
+
+    text-decoration: none;
+  }
+  h4{
+    font-weight: 400;
+
+    padding: 4px 0px;
+
+    span{
+      color: var(--light-blue);
+    }
+  }
+}
