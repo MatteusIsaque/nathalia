@@ -6,6 +6,7 @@ import proof2 from './../images/proof-2.jpg'
 import proof3 from './../images/proof-3.jpg'
 import proof4 from './../images/proof-4.jpg'
 
+
 export default function DadSocialProof() {  
   return (
     <>
