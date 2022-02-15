@@ -7,9 +7,9 @@ export default function ViewTable() {
     <div className={styles.ViewTable}>
       <h2>CONHEÇA MEUS PLANOS</h2>
       <p>VEJA QUAL PACOTE PODE SE ENCAIXAR NA SUA ROTINA</p>
-      <Link href="/?counter=#dadTable" scroll={true}>
+      {/* <Link href="/?counter=#dadTable" scroll={true}>
         <button>VER TABELA</button>
-      </Link>
+      </Link> */}
     </div>
   )
 }
