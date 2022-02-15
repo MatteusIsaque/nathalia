@@ -3,7 +3,7 @@ import styles from './../styles/SonTable.module.scss'
 type DadTable = {
   colorMonth: any
   TitleTable: string
-  Price: number
+  Price?: number
   MonthTraining: string
   PriceMonth: number
   ColorStrong: any
@@ -23,7 +23,7 @@ export default function SonTable({ colorMonth, TitleTable, Price, PriceMonth, Mo
           <th className={styles.TitleTable}>{TitleTable}</th>
         </tr>
       </thead>
-      <tbody className={styles.Tboody}>
+      {/* <tbody className={styles.Tboody}>
         <tr>
           <th className={styles.priceEmphasis}>
             R$
@@ -41,7 +41,7 @@ export default function SonTable({ colorMonth, TitleTable, Price, PriceMonth, Mo
             R${PriceMonth}.00
           </th>
         </tr>
-      </tbody>
+      </tbody> */}
       <div className={styles.Strong} style={{ backgroundColor: ColorStrong }} />
       <tfoot>
         <tr className={styles.Vantagens}>

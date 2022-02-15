@@ -33,7 +33,7 @@ const Home: NextPage = () => {
         <DadBenefit />
         <DadSocialProof />
         <MeetPlans />
-        <DadTable />
+        {/* <DadTable /> */}
         <SecureASpot />
         <ZapButton />
       </main>
