@@ -15,7 +15,7 @@ export default function ContentPrizeDraw() {
           Quem é meu aluno já sabe que de tempos em tempos rola sorteios e uns mimos, para motivar e deixar os treinos mais leves.
         </p>
         <p style={{ marginTop: "10px" }}>Então você topa fazer parte da equipe?</p>
-        <Link href="https://api.whatsapp.com/send?phone=555511951134884&text=Oi%20Nat!%20Tudo%20bem%3F">
+        <Link href="https://api.whatsapp.com/send?phone=5511951134884&text=Oi%20Nat!%20Tudo%20bem%3F">
           <button id="buttonZap">
             PARTICIPAR
 

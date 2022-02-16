@@ -9,7 +9,7 @@ export default function ZapButton() {
 
   return (
     <div id="buttonZap" className={styles.main}>
-      <Link href="https://api.whatsapp.com/send?phone=5511951134884">
+      <Link href="https://api.whatsapp.com/send?phone=5511951134884&text=Oi%20Nat!%20Tudo%20bem%3F">
         <Image id="buttonZap" src={Whatsapp} width={60} height={60} />
       </Link>
     </div>
