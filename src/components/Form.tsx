@@ -45,8 +45,7 @@ export default function Form() {
 
       <Link href="https://api.whatsapp.com/send?phone=555511951134884&text=Oi%20Nat!%20Tudo%20bem%3F">
         <button className={styles.button} id="button">
-          PARTICIPAR
-
+        CHAMAR NATHALIA
         </button>
       </Link>
       {/*       <form onSubmit={sendForm}>
